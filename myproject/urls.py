@@ -19,14 +19,11 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from doc_library import views  # Adjust the import statement
-  # Import the views module
 
 urlpatterns = [
-    path('', views.home, name='home'),  # Add this line for the root URL
     path('admin/', admin.site.urls),
-    path('documents/', include('doc_library.urls')),
-    
+    path('accounts/', include('django.contrib.auth.urls')),  # Include authentication URLs
+    path('', include('doc_library.urls')),  # Include your app's URLs
 ]
 
 if settings.DEBUG:
