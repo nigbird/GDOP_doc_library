@@ -1,0 +1,33 @@
+<!-- filepath: /c:/Users/hp/myproject/doc_library/templates/doc_library/document_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document List</title>
+</head>
+<body>
+    <h1>Document List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>File Name</th>
+                <th>owner</th>
+                <th>Upload Date</th>
+                <th>Update Date</th>
+                <th>Version History</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for document in documents %}
+                <tr>
+                    <td><a href="{% url 'download_document' document.id %}">{{ document.title }}</a></td>
+                    <td>{{ document.owner.username }}</td>
+                    <td>{{ document.uploaded_at }}</td>
+                    <td>{{ document.updated_at }}</td>
+                    <td>{{ document.version_count }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'upload_document' %}">Upload new document</a>
+</body>
+</html>

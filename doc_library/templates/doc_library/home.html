@@ -1,0 +1,38 @@
+<!-- filepath: /c:/Users/hp/myproject/doc_library/templates/doc_library/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GDOP Document Library</title>
+    {% load static %}
+   <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>GDOP Document Library</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'document_list' %}">Documents</a></li>
+                    <li><a href="{% url 'upload_document' %}">Upload</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to the GDOP Document Library</h1>
+            <p>Manage your documents efficiently and effectively.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>GDOP Document Library &copy; 2023</p>
+    </footer>
+
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
