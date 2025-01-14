@@ -126,35 +126,3 @@ footer {
   }
 }
 
-/* Support team */
-.team .team-member {
-  background-color: var(--surface-color);
-  overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1);
-  height: 100%;
-}
-
-.team .team-member .member-img {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  object-fit: cover;
-}
-
-.team .team-member .social {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.team .team-member .social a {
-  color: var(--heading-color);
-  margin: 0 10px;
-  font-size: 20px;
-  transition: color 0.3s;
-}
-
-.team .team-member .social a:hover {
-  color: var(--accent-color);
-}
