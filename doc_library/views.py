@@ -2,7 +2,20 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from .models import Document
-from .forms import DocumentForm
+from django.views.generic.edit import FormView
+from .forms import FileFieldForm
+
+
+class FileFieldFormView(FormView):
+    form_class = FileFieldForm
+    template_name = "doc_library/upload_document.html"  # Ensure the correct path
+    success_url = "/documents/"
+
+    def form_valid(self, form):
+        files = form.cleaned_data["file_field"]
+        for f in files:
+            Document.objects.create(title=f.name, file=f, owner=self.request.user)
+        return super().form_valid(form)
 
 def home(request):
     return render(request, 'doc_library/home.html')
@@ -11,19 +24,6 @@ def home(request):
 def document_list(request):
     documents = Document.objects.all()
     return render(request, 'doc_library/document_list.html', {'documents': documents})
-
-@login_required
-def upload_document(request):
-    if request.method == 'POST':
-        form = DocumentForm(request.POST, request.FILES)
-        if form.is_valid():
-            document = form.save(commit=False)
-            document.owner = request.user  # Ensure the owner field is set
-            document.save()
-            return redirect('document_list')
-    else:
-        form = DocumentForm()
-    return render(request, 'doc_library/upload_document.html', {'form': form})
 
 @login_required
 def download_document(request, document_id):
