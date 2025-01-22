@@ -5,6 +5,8 @@ from . import views
 urlpatterns = [
     path('', views.home, name='home'),
     path('documents/', views.document_list, name='document_list'),
-    path('upload/', views.FileFieldFormView.as_view(), name='upload_document'),  # Update this line
+    path('upload_folder/', views.UploadFolderView.as_view(), name='upload_folder'),
+    path('upload/', views.FileFieldFormView.as_view(), name='upload_document'),
     path('download/<int:document_id>/', views.download_document, name='download_document'),
+    path('delete/<int:document_id>/', views.delete_document, name='delete_document'),
 ]

@@ -12,24 +12,29 @@
         <thead>
             <tr>
                 <th>File Name</th>
-                <th>owner</th>
+                <th>Owner</th>
                 <th>Upload Date</th>
                 <th>Update Date</th>
-                <th>Version History</th>
+                <th>Folder</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
             {% for document in documents %}
                 <tr>
-                    <td><a href="{% url 'download_document' document.id %}">{{ document.title }}</a></td>
+                    
+                    <td><a href="{{ document.file.url }}">{{ document.title }}</a></td>
                     <td>{{ document.owner.username }}</td>
                     <td>{{ document.uploaded_at }}</td>
                     <td>{{ document.updated_at }}</td>
-                    <td>{{ document.version_count }}</td>
+                    <td>{{ document.folder.name }}</td>
+                    <td>
+                        <a href="{% url 'delete_document' document.id %}">Delete</a>
+                    </td>
                 </tr>
             {% endfor %}
         </tbody>
     </table>
-    <a href="{% url 'upload_document' %}">Upload new file</a>
+    <a href="{% url 'upload_document' %}">Upload New Document</a>
 </body>
 </html>

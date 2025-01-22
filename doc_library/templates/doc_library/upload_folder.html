@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Folder</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1> Folder</h1>
+    <div class="upload_container">
+        <form method='POST' enctype="multipart/form-data">
+            {% csrf_token %}
+
+            <input type="file" id="file_input" name="file_field" webkitdirectory directory/>
+            <input type="text" id="directories" name="directories" hidden />
+            <button type="submit">Upload</button>
+        </form>
+        <a href="{% url 'document_list' %}">Back to document list</a>
+
+        <script>
+         files = document.querySelector("#file_input").files;
+         document.querySelector("#file_input").addEventListener("change", function() {
+            files = document.querySelector("#file_input").files;
+            var directories = {}
+            for (var file of files) {
+              file.webkitRelativePath
+              directories[file.name] = file.webkitRelativePath
+            }
+            directories = JSON.stringify(directories);
+            document.querySelector("#directories").value = directories
+         });
+        </script>
+     
+</body>
