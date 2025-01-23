@@ -6,6 +6,41 @@
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
     <link rel="icon" href="{% static 'favicon.ico' %}">
+    <style>
+        .container {
+            display: flex;
+        }
+        .left-column {
+            float: left;
+            padding: 10px;
+            max-width: 250px;
+            color: #555;
+        }
+        .right-column {
+          
+            padding: 10px;
+        }
+        .collapsible {
+            cursor: pointer;
+            padding: 10px 0;
+            border: none;
+            background: none;
+            text-align: left;
+            font-size: 15px;
+            display: block;
+        }
+        .active, .collapsible:hover {
+            background-color: rgb(62, 204, 230);
+
+        }
+        .content {
+            padding-left: 20px;
+            display: none;
+            overflow: hidden;
+            background-color:#ffff;
+        }
+        </style>
+
 </head>
 <body>
     <header>
@@ -25,16 +60,72 @@
     </header>
 
     <section id="showcase">
-        <div class="container">
-            <h1>Welcome to the GDOP Document Library</h1>
-            <p>Manage your documents efficiently and effectively.</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>GDOP Document Library &copy; 2025</p>
-    </footer>
-
-    <script src="{% static 'js/scripts.js' %}"></script>
+    
+             
+            <div class="container">
+                <div class="right-column" id="file-display">
+                    <h1>Welcome to the Document Library</h1>
+                    <p>Manage your documents efficiently and effectively .</p>
+                </div>
+                <div class="left-column">
+                    <h2>Resources</h2>
+                    <ul>
+                        {% for category in categories %}
+                            <li>
+                                <span class="collapsible">{{ category.name }}</span>
+                                <div class="content">
+                                    <ul>
+                                        {% for folder in category.folders.all %}
+                                            <li>
+                                                <a href="#" class="folder-link" data-folder-id="{{ folder.id }}">{{ folder.name }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+        
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                            content.style.display = "none";
+                        } else {
+                            content.style.display = "block";
+                        }
+                    });
+                }
+        
+                document.querySelectorAll('.folder-link').forEach(function(link) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        var folderId = this.getAttribute('data-folder-id');
+                        fetch('/folders/' + folderId + '/files/')
+                            .then(response => response.json())
+                            .then(data => {
+                                var fileDisplay = document.getElementById('file-display');
+                                fileDisplay.innerHTML = '<h2>Files in ' + data.folder_name + '</h2>';
+                                if (data.files.length > 0) {
+                                    var fileList = '<ul>';
+                                    data.files.forEach(file => {
+                                        fileList += '<li>' + file.title + '</li>';
+                                    });
+                                    fileList += '</ul>';
+                                } else {
+                                    fileList = '<p>No files found in this folder.</p>';
+                                }
+                                fileDisplay.innerHTML += fileList;
+                            });
+                    });
+                });
+            </script>     
 </body>
 </html>

@@ -1,0 +1,1933 @@
+Tuesday, August 16, 2022 3:52:45 PM EAT
+DATASET ACTIVATE DataSet0.
+DATASET ACTIVATE DataSet0.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet0.
+FREQUENCIES VARIABLES=sex
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=sex age
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+Tuesday, August 16, 2022 6:19:58 PM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=sex
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=sex age
+ /HISTOGRAM
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=sex age pareticipation
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=sex age pareticipation
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=sex age pareticipation participation
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+Tuesday, August 16, 2022 6:32:54 PM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=sex pareticipation participation age
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+Tuesday, August 16, 2022 7:33:48 PM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Tuesday, August 16, 2022 9:11:35 PM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+EXECUTE.
+Wednesday, August 17, 2022 12:32:04 AM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+DATASET ACTIVATE DataSet1.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+Wednesday, August 17, 2022 2:18:48 AM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+REGRESSION
+ /MISSING LISTWISE
+ /STATISTICS COEFF OUTS R ANOVA
+ /CRITERIA=PIN(.05) POUT(.10)
+ /NOORIGIN
+ /DEPENDENT car
+ /METHOD=ENTER addivers
+ /SCATTERPLOT=(car ,car).
+REGRESSION
+ /MISSING LISTWISE
+ /STATISTICS COEFF OUTS R ANOVA
+ /CRITERIA=PIN(.05) POUT(.10)
+ /NOORIGIN
+ /DEPENDENT car
+ /METHOD=ENTER addivers
+ /SCATTERPLOT=(car ,car).
+REGRESSION
+ /MISSING LISTWISE
+ /STATISTICS COEFF OUTS R ANOVA
+ /CRITERIA=PIN(.05) POUT(.10)
+ /NOORIGIN
+ /DEPENDENT car
+ /METHOD=ENTER addivers
+ /SCATTERPLOT=(car ,car).
+Sunday, August 28, 2022 3:39:32 AM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=sex pareticipation participation age
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=sex pareticipation participation age
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+REGRESSION
+ /MISSING LISTWISE
+ /STATISTICS COEFF OUTS R ANOVA
+ /CRITERIA=PIN(.05) POUT(.10)
+ /NOORIGIN
+ /DEPENDENT car
+ /METHOD=ENTER addivers.
+REGRESSION
+ /MISSING LISTWISE
+ /STATISTICS COEFF OUTS R ANOVA
+ /CRITERIA=PIN(.05) POUT(.10)
+ /NOORIGIN
+ /DEPENDENT car
+ /METHOD=ENTER addivers.
+FREQUENCIES VARIABLES=addivers car
+ /ORDER=ANALYSIS.
+Friday, September 2, 2022 3:59:23 AM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=sex pareticipation addivers
+ /ORDER=ANALYSIS.
+Saturday, September 17, 2022 6:55:56 PM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Sunday, September 18, 2022 3:38:27 AM EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Sunday, 13 November 2022 20:13:40 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Monday, 13 March 2023 10:23:41 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Monday, 13 March 2023 13:27:14 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=nomovemnentondisabilities
+ /STATISTICS=RANGE MINIMUM MAXIMUM STDDEV MEAN MEDIAN
+ /FORMAT=LIMIT(50)
+ /ORDER=ANALYSIS.
+Tuesday, 14 March 2023 11:04:03 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Tuesday, 14 March 2023 15:49:54 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Tuesday, 14 March 2023 16:10:27 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Wednesday, 15 March 2023 16:26:35 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Wednesday, 15 March 2023 18:36:43 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Thursday, 16 March 2023 09:55:54 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Sunday, 26 March 2023 17:20:02 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Monday, 27 March 2023 10:50:12 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Friday, 31 March 2023 19:53:14 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Sunday, 2 April 2023 18:29:29 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Sunday, 2 April 2023 22:42:48 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Thursday, 6 April 2023 21:58:09 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Friday, 7 April 2023 13:50:30 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Thursday, 13 April 2023 10:33:36 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=cposition
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=cposition sex
+ /ORDER=ANALYSIS.
+CROSSTABS
+ /TABLES=cposition BY sex age hacadamic wexperience sspecialneededuc
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+FREQUENCIES VARIABLES=cposition
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=sex
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=cposition
+ /ORDER=ANALYSIS.
+CROSSTABS
+ /TABLES=age hacadamic wexperience cposition sspecialneededuc BY sex
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=cposition
+ /ORDER=ANALYSIS.
+DESCRIPTIVES VARIABLES=wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+CROSSTABS
+ /TABLES=age hacadamic wexperience cposition BY sex
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+FREQUENCIES VARIABLES=cposition
+ /ORDER=ANALYSIS.
+CROSSTABS
+ /TABLES=sex BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+CROSSTABS
+ /TABLES=sex BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=age BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=hacadamic BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=wexperience BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=wexperience BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DESCRIPTIVES VARIABLES=wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+DESCRIPTIVES VARIABLES=wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+DESCRIPTIVES VARIABLES=wexperience age
+ /STATISTICS=MEAN STDDEV MIN MAX.
+DESCRIPTIVES VARIABLES=age wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+BOOTSTRAP
+ /SAMPLING METHOD=STRATIFIED(STRATA=cposition )
+ /VARIABLES INPUT=age wexperience
+ /CRITERIA CILEVEL=95 CITYPE=PERCENTILE  NSAMPLES=1000
+ /MISSING USERMISSING=EXCLUDE.
+DESCRIPTIVES VARIABLES=age wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+DESCRIPTIVES VARIABLES=wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+CROSSTABS
+ /TABLES=sex BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DESCRIPTIVES VARIABLES=wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+Monday, 17 April 2023 15:25:53 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Monday, 17 April 2023 15:27:01 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DESCRIPTIVES VARIABLES=wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+CROSSTABS
+ /TABLES=cposition BY hacadamic
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DESCRIPTIVES VARIABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow
+ /STATISTICS=MEAN STDDEV MIN MAX.
+DESCRIPTIVES VARIABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow wexperience
+ /STATISTICS=MEAN STDDEV MIN MAX.
+Thursday, 20 April 2023 09:17:03 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CROSSTABS
+ /TABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow BY sex cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DESCRIPTIVES VARIABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow
+ /STATISTICS=MEAN STDDEV MIN MAX.
+CROSSTABS
+ /TABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow BY sex cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DESCRIPTIVES VARIABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow cposition
+ /STATISTICS=MEAN STDDEV MIN MAX.
+FREQUENCIES VARIABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow
+ /STATISTICS=STDDEV MEAN
+ /ORDER=ANALYSIS.
+CROSSTABS
+ /TABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DESCRIPTIVES VARIABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow
+ /STATISTICS=MEAN STDDEV MIN MAX.
+Thursday, 20 April 2023 10:03:44 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=notequalyparticipated
+ /STATISTICS=STDDEV MEAN
+ /ORDER=ANALYSIS.
+CROSSTABS
+ /TABLES=notequalyparticipated BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DESCRIPTIVES VARIABLES=notequalyparticipated
+ /STATISTICS=MEAN STDDEV.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DESCRIPTIVES VARIABLES=cposition
+ /STATISTICS=MEAN STDDEV.
+DESCRIPTIVES VARIABLES=notequalyparticipated
+ /STATISTICS=MEAN STDDEV.
+FREQUENCIES VARIABLES=notequalyparticipated cposition
+ /STATISTICS=STDDEV MEAN
+ /ORDER=ANALYSIS.
+DESCRIPTIVES VARIABLES=notequalyparticipated nomovemnentondisabilities
+ /STATISTICS=MEAN STDDEV.
+CROSSTABS
+ /TABLES=notequalyparticipated BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DESCRIPTIVES VARIABLES=notequalyparticipated
+ /STATISTICS=MEAN STDDEV.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DESCRIPTIVES VARIABLES=cposition notequalyparticipated
+ /STATISTICS=MEAN STDDEV.
+EXAMINE VARIABLES=notequalyparticipated BY cposition
+ /PLOT NONE
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+EXAMINE VARIABLES=notequalyparticipated BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+CROSSTABS
+ /TABLES=notequalyparticipated BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+EXAMINE VARIABLES=nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+CROSSTABS
+ /TABLES=nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+EXAMINE VARIABLES=participationislow BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+Thursday, 20 April 2023 21:27:51 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CROSSTABS
+ /TABLES=noandtypeisnotidentified BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=notequalyparticipated nomovemnentondisabilities noandtypeisnotidentified discrimination limitedinteraction participationislow BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+Monday, 24 April 2023 21:45:00 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CROSSTABS
+ /TABLES=policiesareveryhelpfultoempowerdisablities stakeholdersattitudeisnotchanged disablitiescantlearnandscoregoodresult disablitiesgetlimitedsupport disablitiesmustnotlearnwithothers teachingdisablitiesarelosingtime onlygnoparticipate BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+EXAMINE VARIABLES=policiesareveryhelpfultoempowerdisablities stakeholdersattitudeisnotchanged disablitiescantlearnandscoregoodresult disablitiesgetlimitedsupport disablitiesmustnotlearnwithothers teachingdisablitiesarelosingtime onlygnoparticipate BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+EXAMINE VARIABLES=policiesareveryhelpfultoempowerdisablities stakeholdersattitudeisnotchanged disablitiescantlearnandscoregoodresult disablitiesgetlimitedsupport disablitiesmustnotlearnwithothers teachingdisablitiesarelosingtime onlygnoparticipate BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+CROSSTABS
+ /TABLES=nowellmaintainedclassroom nodisablitycenteredbuildingstrategy transpnotaccessible entryexitnotsuitable clssroomstoiletsnotcomfortable reservedchairs BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+EXAMINE VARIABLES=nowellmaintainedclassroom nodisablitycenteredbuildingstrategy transpnotaccessible entryexitnotsuitable clssroomstoiletsnotcomfortable reservedchairs BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+CROSSTABS
+ /TABLES=notincludedindiffactivities teachersdonotsupportinclusion donotgettutorial donotrecieveservicesadvices BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+EXAMINE VARIABLES=notincludedindiffactivities teachersdonotsupportinclusion donotgettutorial donotrecieveservicesadvices BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+CROSSTABS
+ /TABLES=noqualifiedcoaches facefrequantaccident seminarsonhandlingdisabilities Traininginsne trainingininclusive traininginguidance trainingtodisablities BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+EXAMINE VARIABLES=noqualifiedcoaches facefrequantaccident seminarsonhandlingdisabilities Traininginsne trainingininclusive traininginguidance trainingtodisablities BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+EXAMINE VARIABLES=trainingtodisablities BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+CROSSTABS
+ /TABLES=disabilitieslackinfo disabilitieslackmotivation disabilitieshavelowselfconfidence disabilitiesfearrisktaking donotemployeedisabilities scoreless BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+EXAMINE VARIABLES=disabilitieslackinfo disabilitieslackmotivation disabilitieshavelowselfconfidence disabilitiesfearrisktaking donotemployeedisabilities scoreless BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+CROSSTABS
+ /TABLES=allparticipateinedp noenoughbudget policyimplementerslackkwlinclusive irrevalentpolicy BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+EXAMINE VARIABLES=allparticipateinedp noenoughbudget policyimplementerslackkwlinclusive irrevalentpolicy BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+EXAMINE VARIABLES=disabilityparrentslackmoney sendingdisabilitiestoschoolisnotfamiliar parentscountasshameandevil stayathomeisbetter BY cposition
+ /PLOT BOXPLOT STEMLEAF
+ /COMPARE GROUPS
+ /STATISTICS DESCRIPTIVES
+ /CINTERVAL 95
+ /MISSING LISTWISE
+ /NOTOTAL.
+CROSSTABS
+ /TABLES=disabilityparrentslackmoney sendingdisabilitiestoschoolisnotfamiliar parentscountasshameandevil stayathomeisbetter BY cposition
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+Saturday, 4 November 2023 21:57:53 EAT
+GET
+ FILE='E:\123.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Saturday, 11 November 2023 22:13:15 EAT
+GET
+ FILE='E:\spss thrusday.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Wednesday, 13 December 2023 17:53:04 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CORRELATIONS
+ /VARIABLES=notequalyparticipated limitedinteraction disablitiescantlearnandscoregoodresult
+ /PRINT=TWOTAIL NOSIG
+ /MISSING=PAIRWISE.
+SUMMARIZE
+ /TABLES=sex hacadamic cposition notequalyparticipated disablitiescantlearnandscoregoodresult
+ /FORMAT=VALIDLIST NOCASENUM TOTAL LIMIT=100
+ /TITLE='Case Summaries'
+ /MISSING=VARIABLE
+ /CELLS=COUNT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\DataSet0.sav'
+ /COMPRESSED.
+Wednesday, 10 January 2024 22:54:49 EAT
+GET
+ FILE='F:\123.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Wednesday, 22 May 2024 09:05:54 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+NEW FILE.
+DATASET NAME DataSet2 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+NEW FILE.
+DATASET NAME DataSet3 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+NEW FILE.
+DATASET NAME DataSet4 WINDOW=FRONT.
+DATASET ACTIVATE DataSet3.
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+*>Warning # 67.  Command name: GET FILE
+*>The document is already in use by another user or process.  If you make
+*>changes to the document they may overwrite changes made by others or your
+*>changes may be overwritten by others.
+DATASET NAME DataSet5 WINDOW=FRONT.
+DATASET CLOSE DataSet3.
+Wednesday, 22 May 2024 10:04:02 EAT
+GET
+ FILE='C:\Users\hp\Desktop\DataSet0.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+NEW FILE.
+DATASET NAME DataSet2 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+NEW FILE.
+DATASET NAME DataSet3 WINDOW=FRONT.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet3.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+Thursday, 23 May 2024 14:13:37 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Thursday, 23 May 2024 14:13:41 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016.sav'.
+*>Warning # 67.  Command name: GET FILE
+*>The document is already in use by another user or process.  If you make
+*>changes to the document they may overwrite changes made by others or your
+*>changes may be overwritten by others.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016.sav'
+ /COMPRESSED.
+*>Warning # 5334.  Command name: SAVE
+*>The SAVE command has succeeded.  However, due to contention for the specified
+*>file, the data have been saved to a file with a different name.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+Thursday, 23 May 2024 15:42:59 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+RECODE kebele age education job sex awere hossanar wekixr kembatacr selxecr (SYSMIS=99).
+EXECUTE.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=kebele age education job sex awere hossanar wekixr kembatacr
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=awere
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=job
+ /ORDER=ANALYSIS.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=job
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+Friday, 24 May 2024 10:27:23 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 24 May 2024 14:16:35 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 24 May 2024 14:17:33 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+*>Warning # 67.  Command name: GET FILE
+*>The document is already in use by another user or process.  If you make
+*>changes to the document they may overwrite changes made by others or your
+*>changes may be overwritten by others.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+RECODE awere hossanar wekixr kembatacr selxecr heraedradio hearedtv hossanaameric hossanahadiy hossaalba wekitgura wekilxyemi goodtime drama officilaspeech medreckreport rbefi kben regisrationkebe penality mrtregister messagenotatt repeatedmessa timenotknowen timeotgood dovisitsight faceboo telegr (SYSMIS=99).
+EXECUTE.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+RECODE kebele age education job sex awere hossanar wekixr kembatacr selxecr heraedradio hearedtv hossanaameric hossanahadiy hossaalba wekitgura wekilxyemi goodtime (MISSING=99).
+EXECUTE.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+MULT RESPONSE GROUPS=$languueshearedfromhossanafm 'languages heared from hossana fm' (hossanaameric hossanahadiy hossaalba (1))
+ /FREQUENCIES=$languueshearedfromhossanafm.
+Friday, 24 May 2024 15:53:00 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+RECODE kebele age education job sex awere hossanar wekixr kembatacr selxecr heraedradio hearedtv hossanaameric hossanahadiy hossaalba wekitgura wekilxyemi goodtime drama officilaspeech medreckreport rbefi kben regisrationkebe penality mrtregister messagenotatt repeatedmessa timenotknowen timeotgood (MISSING=99).
+EXECUTE.
+RECODE dovisitsight faceboo telegr ytub (MISSING=99).
+EXECUTE.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=awere
+ /FORMAT=NOTABLE
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$mediasfromwhichheared 'from which u heared' (awere hossanar wekixr kembatacr selxecr (1))
+ /FREQUENCIES=$mediasfromwhichheared.
+MULT RESPONSE GROUPS=$frwm 'from whichmedia' (hossanar wekixr kembatacr selxecr (1))
+ /FREQUENCIES=$frwm.
+MULT RESPONSE GROUPS=$frwm 'from whichmedia' (hossanar wekixr kembatacr selxecr (1)) $whatuhearedfrommedias 'what y heared from medias' (kben regisrationkebe penality mrtregister (1))
+ /FREQUENCIES=$frwm $whatuhearedfrommedias.
+MULT RESPONSE GROUPS=$frwm 'from whichmedia' (hossanar wekixr kembatacr selxecr (1)) $whatuhearedfrommedias 'what y heared from medias' (kben regisrationkebe penality mrtregister (1)) $problemofmedia 'problems of media' (messagenotatt repeatedmessa timenotknowen timeotgood (1))
+ /FREQUENCIES=$frwm $whatuhearedfrommedias $problemofmedia.
+Friday, 24 May 2024 17:02:39 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+Monday, 27 May 2024 15:07:02 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=awere
+ /FORMAT=NOTABLE
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=awere
+ /FORMAT=NOTABLE
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+FREQUENCIES VARIABLES=awere
+ /FORMAT=NOTABLE
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$fromwhichmediadoyouheared 'from which media do you heared' (heraedradio hearedtv (1))
+ /FREQUENCIES=$fromwhichmediadoyouheared.
+MULT RESPONSE GROUPS=$fromwhichmediadoyouheared 'from which media do you heared' (heraedradio hearedtv (1)) $inwhatlanguageyouhearedfromhossanaFM 'in whcihc lngauge do y  heared from hos' (hossanaameric hossanahadiy hossaalba (1))
+ /FREQUENCIES=$fromwhichmediadoyouheared $inwhatlanguageyouhearedfromhossanaFM.
+FREQUENCIES VARIABLES=wekitgura wekilxyemi
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$inwhcichlanguagedoyouhearedfromwlekixFM 'inwhcih language do you' (wekitgura wekilxyemi (1))
+ /FREQUENCIES=$inwhcichlanguagedoyouhearedfromwlekixFM.
+FREQUENCIES VARIABLES=goodtime
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=goodtime
+ /HISTOGRAM
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=goodtime
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=goodtime
+ /BARCHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=drama officilaspeech medreckreport rbefi
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$whatmessagesoftentrasmmitedinradios 'what messages often  trasmmitted' (drama officilaspeech medreckreport rbefi (1))
+ /FREQUENCIES=$whatmessagesoftentrasmmitedinradios.
+MULT RESPONSE GROUPS=$whatarethemainprobleminradiotrasmmistion 'what are the main problems in radio tras' (messagenotatt repeatedmessa timenotknowen timeotgood (1))
+ /FREQUENCIES=$whatarethemainprobleminradiotrasmmistion.
+FREQUENCIES VARIABLES=dovisitsight
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=heraedradio hearedtv
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$whatarethemainprobleminradiotrasmmistion 'what are the main problems in radio tras' (messagenotatt repeatedmessa timenotknowen timeotgood (1)) $hrearedfromhossana 'hrearedfrom hossana' (hossanaameric hossanahadiy hossaalba (1))
+ /FREQUENCIES=$whatarethemainprobleminradiotrasmmistion $hrearedfromhossana.
+USE ALL.
+COMPUTE filter_$=(awere = 1).
+VARIABLE LABELS filter_$ 'awere = 1 (FILTER)'.
+VALUE LABELS filter_$ 0 'Not Selected' 1 'Selected'.
+FORMATS filter_$ (f1.0).
+FILTER BY filter_$.
+EXECUTE.
+FREQUENCIES VARIABLES=hearedtv heraedradio
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$whatarethemainprobleminradiotrasmmistion 'what are the main problems in radio tras' (messagenotatt repeatedmessa timenotknowen timeotgood (1)) $hrearedfromhossana 'hrearedfrom hossana' (hossanaameric hossanahadiy hossaalba (1)) $fromwhcihmedaidouheared 'from which media do y heared' (heraedradio hearedtv (1))
+ /FREQUENCIES=$whatarethemainprobleminradiotrasmmistion $hrearedfromhossana $fromwhcihmedaidouheared.
+MULT RESPONSE GROUPS=$whatarethemainprobleminradiotrasmmistion 'what are the main problems in radio tras' (messagenotatt repeatedmessa timenotknowen timeotgood (1)) $hrearedfromhossana 'hrearedfrom hossana' (hossanaameric hossanahadiy hossaalba (1)) $fromwhcihmedaidouheared 'from which media do y heared' (heraedradio hearedtv (1))
+ /FREQUENCIES=$whatarethemainprobleminradiotrasmmistion $hrearedfromhossana $fromwhcihmedaidouheared.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'
+ /COMPRESSED.
+Wednesday, 29 May 2024 09:52:26 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Wednesday, 29 May 2024 09:53:20 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+*>Warning # 67.  Command name: GET FILE
+*>The document is already in use by another user or process.  If you make
+*>changes to the document they may overwrite changes made by others or your
+*>changes may be overwritten by others.
+DATASET NAME DataSet2 WINDOW=FRONT.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /ORDER=ANALYSIS.
+DATASET CLOSE DataSet2.
+DATASET ACTIVATE DataSet1.
+FREQUENCIES VARIABLES=awere
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=hossanar wekixr kembatacr selxecr
+ /ORDER=ANALYSIS.
+USE ALL.
+COMPUTE filter_$=(awere = 1).
+VARIABLE LABELS filter_$ 'awere = 1 (FILTER)'.
+VALUE LABELS filter_$ 0 'Not Selected' 1 'Selected'.
+FORMATS filter_$ (f1.0).
+FILTER BY filter_$.
+EXECUTE.
+MULT RESPONSE GROUPS=$fromwhichFMyouheared 'from which FM you heared' (hossanar wekixr kembatacr selxecr (1))
+ /FREQUENCIES=$fromwhichFMyouheared.
+MULT RESPONSE GROUPS=$fromwhichmediadoyouheared 'from which media do heared' (heraedradio hearedtv (1))
+ /FREQUENCIES=$fromwhichmediadoyouheared.
+MULT RESPONSE GROUPS=$inwhichlanguageyouhearedfromhossafm 'in which language' (hossanaameric hossanahadiy hossaalba (1))
+ /FREQUENCIES=$inwhichlanguageyouhearedfromhossafm.
+MULT RESPONSE GROUPS=$inwhichlanguagedoheared 'in which language you heared from wlxfm' (wekitgura wekilxyemi (1))
+ /FREQUENCIES=$inwhichlanguagedoheared.
+FREQUENCIES VARIABLES=goodtime
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$uauallytrasmittedmessage 'usaully trasmmitted messages' (drama officilaspeech medreckreport rbefi (1))
+ /FREQUENCIES=$uauallytrasmittedmessage.
+MULT RESPONSE GROUPS=$uauallytrasmittedmessage 'usaully trasmmitted messages' (drama officilaspeech medreckreport rbefi (1)) $whatyouknowfrommedia 'what you know from media' (kben regisrationkebe penality mrtregister (1))
+ /FREQUENCIES=$uauallytrasmittedmessage $whatyouknowfrommedia.
+MULT RESPONSE GROUPS=$probleminradiotrasmission 'problem of radio trasmition' (messagenotatt repeatedmessa timenotknowen timeotgood (1))
+ /FREQUENCIES=$probleminradiotrasmission.
+FREQUENCIES VARIABLES=dovisitsight
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=dovisitsight
+ /ORDER=ANALYSIS.
+USE ALL.
+COMPUTE filter_$=(dovisitsight = 1).
+VARIABLE LABELS filter_$ 'dovisitsight = 1 (FILTER)'.
+VALUE LABELS filter_$ 0 'Not Selected' 1 'Selected'.
+FORMATS filter_$ (f1.0).
+FILTER BY filter_$.
+EXECUTE.
+MULT RESPONSE GROUPS=$iffromwibsightfromwhichone 'iffromwibesightfromwhichone' (faceboo telegr ytub (1))
+ /FREQUENCIES=$iffromwibsightfromwhichone.
+FILTER OFF.
+USE ALL.
+EXECUTE.
+FREQUENCIES VARIABLES=awere
+ /PIECHART FREQ
+ /ORDER=ANALYSIS.
+CROSSTABS
+ /TABLES=kebele age education job sex BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+Wednesday, 29 May 2024 14:23:18 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Wednesday, 29 May 2024 14:23:47 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Wednesday, 29 May 2024 14:24:12 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+USE ALL.
+COMPUTE filter_$=(awere = 1).
+VARIABLE LABELS filter_$ 'awere = 1 (FILTER)'.
+VALUE LABELS filter_$ 0 'Not Selected' 1 'Selected'.
+FORMATS filter_$ (f1.0).
+FILTER BY filter_$.
+EXECUTE.
+MULT RESPONSE GROUPS=$fromwhichradio 'from which radio' (hossanar wekixr kembatacr selxecr (1))
+ /FREQUENCIES=$fromwhichradio.
+MULT RESPONSE GROUPS=$doyouheraredfromradioortv 'from which you heared tv or radio' (heraedradio hearedtv (1))
+ /FREQUENCIES=$doyouheraredfromradioortv.
+MULT RESPONSE GROUPS=$bywhichlanguageyouhearedfromhossafm 'by whivh languae you heared from hossafm' (hossanaameric hossanahadiy hossaalba (1))
+ /FREQUENCIES=$bywhichlanguageyouhearedfromhossafm.
+MULT RESPONSE GROUPS=$bywhichlanguyouheraredfromwekixfm 'bywhich langu you heared from wekixfm' (wekitgura wekilxyemi (1))
+ /FREQUENCIES=$bywhichlanguyouheraredfromwekixfm.
+FREQUENCIES VARIABLES=goodtime
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$problemsofradiomessage 'problems of radio messages' (drama officilaspeech medreckreport rbefi (1))
+ /FREQUENCIES=$problemsofradiomessage.
+MULT RESPONSE GROUPS=$whattyoulearnfromradio 'wahtyoulearnfrom radio' (kben regisrationkebe penality mrtregister (1))
+ /FREQUENCIES=$whattyoulearnfromradio.
+FREQUENCIES VARIABLES=dovisitsight
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$whaichchannelyouhearedfromwibsite 'by which chanel you heared from wibsit' (faceboo telegr ytub (1))
+ /FREQUENCIES=$whaichchannelyouhearedfromwibsite.
+Thursday, 30 May 2024 09:13:03 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Thursday, 30 May 2024 09:59:32 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CROSSTABS
+ /TABLES=kebele age education job sex BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=kebele age education job sex BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+FREQUENCIES VARIABLES=heraedradio hearedtv dovisitsight
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=heraedradio hearedtv dovisitsight
+ /ORDER=ANALYSIS.
+Thursday, 30 May 2024 13:58:15 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CROSSTABS
+ /TABLES=kebele age education job sex BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+*>Warning # 67.  Command name: GET FILE
+*>The document is already in use by another user or process.  If you make
+*>changes to the document they may overwrite changes made by others or your
+*>changes may be overwritten by others.
+DATASET NAME DataSet2 WINDOW=FRONT.
+Thursday, 30 May 2024 14:42:29 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Thursday, 30 May 2024 14:42:38 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+*>Warning # 67.  Command name: GET FILE
+*>The document is already in use by another user or process.  If you make
+*>changes to the document they may overwrite changes made by others or your
+*>changes may be overwritten by others.
+DATASET NAME DataSet2 WINDOW=FRONT.
+MULT RESPONSE GROUPS=$media 'media' (hossanar wekixr kembatacr selxecr (1))
+ /FREQUENCIES=$media.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\radioes.sav'
+ /COMPRESSED.
+MULT RESPONSE GROUPS=$radio 'radio' (wekixr kembatacr selxecr hossanar (1))
+ /FREQUENCIES=$radio.
+Friday, 31 May 2024 14:21:49 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 14:31:19 EAT
+GET
+ FILE='C:\Users\hp\Desktop\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 15:06:54 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 15:29:25 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 15:30:14 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 15:30:30 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 15:55:10 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 15:59:43 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 16:00:12 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 16:01:22 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 16:01:50 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 16:02:37 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 16:02:51 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=awere
+ /PIECHART PERCENT
+ /ORDER=ANALYSIS.
+Friday, 31 May 2024 22:18:10 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 31 May 2024 22:18:30 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=hossanar wekixr kembatacr selxecr
+ /BARCHART PERCENT
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$redioheared 'radioheared' (hossanar wekixr kembatacr selxecr (1))
+ /FREQUENCIES=$redioheared.
+FREQUENCIES VARIABLES=hossanar wekixr kembatacr selxecr
+ /BARCHART PERCENT
+ /ORDER=ANALYSIS.
+Friday, 31 May 2024 23:26:06 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+MULT RESPONSE GROUPS=$radioheared 'readio heared' (hossanar wekixr kembatacr selxecr (1))
+ /FREQUENCIES=$radioheared.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+Saturday, 1 June 2024 00:16:00 EAT
+SET TLook='C:\Program Files\IBM\SPSS\Statistics\21\Looks\Academic.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+Saturday, 1 June 2024 00:31:37 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FREQUENCIES VARIABLES=kebele age education job sex
+ /ORDER=ANALYSIS.
+Sunday, 2 June 2024 04:28:04 EAT
+GETGET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+*>Error.  Command name: GET FILE
+*>Error opening a SPSS Statistics data file: C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav: Permission denied (DATA1201)
+*>Error # 1405 in column 8.  Text: C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav
+*>Error when attempting to get a data file.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Sunday, 2 June 2024 05:45:33 EAT
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\TimesRoman.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\TimesRoman.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\TimesRoman.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\TimesRoman.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\LargeFont.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\LargeFont.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\LargeFont.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+MULT RESPONSE GROUPS=$FROMWHICMWDIA 'from which media' (hearedtv heraedradio (1))
+ /FREQUENCIES=$FROMWHICMWDIA.
+FREQUENCIES VARIABLES=goodtime
+ /ORDER=ANALYSIS.
+MULT RESPONSE GROUPS=$whatmessage 'what kig of message' (drama officilaspeech medreckreport rbefi (1))
+ /FREQUENCIES=$whatmessage.
+MULT RESPONSE GROUPS=$whatyounow 'whatyouknow' (kben regisrationkebe penality mrtregister (1))
+ /FREQUENCIES=$whatyounow.
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\LargeFont.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\PROGRA~1\IBM\SPSS\STATIS~1\21\Looks\LargeFont.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\Users\hp\Documents\apa3.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+SET TLook='C:\Users\hp\Documents\apa3.stt' TABLERENDER=light ROWSBREAK=NONE TFit=Both.
+Sunday, 2 June 2024 07:31:23 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+MULT RESPONSE GROUPS=$hearedfrom 'heared from' (heraedradio hearedtv (1))
+ /FREQUENCIES=$hearedfrom.
+MULT RESPONSE GROUPS=$hearedfrom 'heared from' (heraedradio hearedtv (1))
+ /FREQUENCIES=$hearedfrom.
+MULT RESPONSE GROUPS=$whatmessageoftentramited 'what rogram usually transmitted in radio' (drama officilaspeech medreckreport rbefi (1))
+ /FREQUENCIES=$whatmessageoftentramited.
+FREQUENCIES VARIABLES=goodtime
+ /ORDER=ANALYSIS.
+Sunday, 2 June 2024 08:16:06 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+MULT RESPONSE GROUPS=$whatmessageoftentrasmitinradio 'waht message often trasmit' (drama officilaspeech medreckreport rbefi (1))
+ /FREQUENCIES=$whatmessageoftentrasmitinradio.
+MULT RESPONSE GROUPS=$wahtyoulearnfromradio 'what you learn from radio' (kben regisrationkebe penality mrtregister (1))
+ /FREQUENCIES=$wahtyoulearnfromradio.
+Monday, 3 June 2024 10:53:05 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+USE ALL.
+COMPUTE filter_$=(awere = 1).
+VARIABLE LABELS filter_$ 'awere = 1 (FILTER)'.
+VALUE LABELS filter_$ 0 'Not Selected' 1 'Selected'.
+FORMATS filter_$ (f1.0).
+FILTER BY filter_$.
+EXECUTE.
+FREQUENCIES VARIABLES=goodtime
+ /ORDER=ANALYSIS.
+CROSSTABS
+ /TABLES=hossanar wekixr kembatacr selxecr BY drama officilaspeech medreckreport rbefi
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=hossanar wekixr kembatacr selxecr BY drama officilaspeech medreckreport rbefi
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+Monday, 3 June 2024 14:03:57 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+FILTER OFF.
+USE ALL.
+EXECUTE.
+CROSSTABS
+ /TABLES=kebele BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=kebele BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=age BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=education BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=job BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+Monday, 3 June 2024 19:57:44 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CROSSTABS
+ /TABLES=job BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=job BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=sex BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=kebele BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=age BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+CROSSTABS
+ /TABLES=education BY awere
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL
+ /BARCHART.
+Tuesday, 4 June 2024 15:15:32 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+MULT RESPONSE GROUPS=$problemofrdaiotrasmission 'problems of radio trasmission' (messagenotatt repeatedmessa timenotknowen timeotgood (1))
+ /FREQUENCIES=$problemofrdaiotrasmission.
+USE ALL.
+COMPUTE filter_$=(awere = 1).
+VARIABLE LABELS filter_$ 'awere = 1 (FILTER)'.
+VALUE LABELS filter_$ 0 'Not Selected' 1 'Selected'.
+FORMATS filter_$ (f1.0).
+FILTER BY filter_$.
+EXECUTE.
+MULT RESPONSE GROUPS=$problemofrdaiotrasmission 'problems of radio trasmission' (messagenotatt repeatedmessa timenotknowen timeotgood (1))
+ /FREQUENCIES=$problemofrdaiotrasmission.
+DESCRIPTIVES VARIABLES=dovisitsight
+ /STATISTICS=MEAN STDDEV MIN MAX.
+DESCRIPTIVES VARIABLES=dovisitsight
+ /STATISTICS=MEAN STDDEV MIN MAX.
+FREQUENCIES VARIABLES=dovisitsight
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=dovisitsight
+ /ORDER=ANALYSIS.
+FREQUENCIES VARIABLES=dovisitsight
+ /ORDER=ANALYSIS.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+Tuesday, 4 June 2024 20:18:32 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+Tuesday, 4 June 2024 20:18:32 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+*>Error # 64 in column 8.  Text: C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav
+*>Unable to open the specified file.  Either it doesn't exist, or you don't have
+*>the rights to access it.
+DATASET NAME DataSet1 WINDOW=FRONT.
+MULT RESPONSE GROUPS=$reasonfornotlisteningradio 'reasons for not listening radio' (noradiocoverage nointresttolistenradio idnotknowradiotrasmisionabouvr notknowthetimeofregistration (1))
+ /FREQUENCIES=$reasonfornotlisteningradio.
+MULT RESPONSE GROUPS=$reasonfornotlisteningradio 'reasons for not listening radio' (noradiocoverage nointresttolistenradio idnotknowradiotrasmisionabouvr notknowthetimeofregistration (1))
+ /FREQUENCIES=$reasonfornotlisteningradio.
+MULT RESPONSE GROUPS=$reasonsfornotlisteningradio 'reasons for not listening radio' (noradiocoverage nointresttolistenradio idnotknowradiotrasmisionabouvr notknowthetimeofregistration (1))
+ /FREQUENCIES=$reasonsfornotlisteningradio.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+MULT RESPONSE GROUPS=$reasonsfornotlisteningradio 'reasons for not listening radio' (noradiocoverage nointresttolistenradio idnotknowradiotrasmisionabouvr notknowthetimeofregistration (1))
+ /FREQUENCIES=$reasonsfornotlisteningradio.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+DATASET ACTIVATE DataSet1.
+ 
+SAVE OUTFILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'
+ /COMPRESSED.
+MULT RESPONSE GROUPS=$reasonsfornotlisteninhradio 'reasons for not listening radio' (noradiocoverage nointresttolistenradio idnotknowradiotrasmisionabouvr notknowthetimeofregistration (1))
+ /FREQUENCIES=$reasonsfornotlisteninhradio.
+MULT RESPONSE GROUPS=$bywhichlanguayouhearedfromwekixfm 'by which langua you heared from wekix fm' (wekitgura wekilxyemi (1))
+ /FREQUENCIES=$bywhichlanguayouhearedfromwekixfm.
+Tuesday, 4 June 2024 21:28:14 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+MULT RESPONSE GROUPS=$hearedfromtvorradio 'heared from radio or tv' (heraedradio hearedtv (1))
+ /FREQUENCIES=$hearedfromtvorradio.
+Wednesday, 5 June 2024 11:30:26 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Thursday, 6 June 2024 09:03:35 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Thursday, 6 June 2024 09:59:07 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Friday, 7 June 2024 15:35:41 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Sunday, 9 June 2024 22:33:46 EAT
+
+GET
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+*>Warning # 67.  Command name: GET FILE
+*>The document is already in use by another user or process.  If you make
+*>changes to the document they may overwrite changes made by others or your
+*>changes may be overwritten by others.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CROSSTABS
+ /TABLES=drama officilaspeech medreckreport rbefi BY hossanar wekixr kembatacr selxecr
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=hossanar wekixr kembatacr selxecr BY drama officilaspeech medreckreport rbefi
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+CROSSTABS
+ /TABLES=drama officilaspeech medreckreport rbefi BY hossanar wekixr kembatacr selxecr
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+MULT RESPONSE GROUPS=$messages 'messages' (drama officilaspeech medreckreport rbefi (1)) $radios 'radios' (hossanar wekixr kembatacr selxecr (1))
+ /TABLES=$messages BY $radios
+ /BASE=CASES.
+MULT RESPONSE GROUPS=$radios 'radios' (hossanar wekixr kembatacr selxecr (1)) $messages 'messages' (drama officilaspeech medreckreport rbefi (1))
+ /TABLES=$radios BY $messages
+ /BASE=CASES.
+Monday, 10 June 2024 11:48:09 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Sunday, 23 June 2024 14:42:51 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Sunday, 23 June 2024 14:43:28 EAT
+GET
+ FILE='C:\Users\hp\Desktop\research 2016 hosahena\rsearch 2016_1.sav'.
+DATASET NAME DataSet1 WINDOW=FRONT.
+CROSSTABS
+ /TABLES=awere BY kebele
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+GRAPH
+ /BAR(GROUPED)=CUPCT BY awere BY kebele.
+GRAPH
+ /BAR(GROUPED)=PCT BY awere BY kebele.
+CROSSTABS
+ /TABLES=awere BY kebele
+ /FORMAT=AVALUE TABLES
+ /CELLS=COUNT
+ /COUNT ROUND CELL.
+GRAPH
+ /BAR(GROUPED)=CUPCT BY awere BY kebele.
+GRAPH
+ /BAR(GROUPED)=PCT BY kebele BY awere.
+GRAPH
+ /BAR(GROUPED)=CUPCT BY kebele BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY kebele BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY kebele BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY age BY awere.
+GRAPH
+ /BAR(GROUPED)=COUNT BY kebele BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY kebele BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY education BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY sex BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY kebele BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY sex BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY age BY awere.
+GRAPH
+ /BAR(GROUPED)=PCT BY job BY awere.

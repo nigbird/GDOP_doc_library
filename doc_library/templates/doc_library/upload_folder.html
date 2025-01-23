@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <head>
     <title>Folder</title>
@@ -31,4 +31,47 @@
          });
         </script>
      
+</body>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Folder</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    
+    <h1>Upload Folder</h1>
+    <div class="upload_container">
+    <form method='POST' enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" id="file_input" name="file_field" webkitdirectory directory multiple/>
+        <input type="text" id="directories" name="directories" hidden/>
+        <label for="category">Category:</label>
+        <select name="category" id="category">
+            <option value="">Select a category</option>
+            {% for category in categories %}
+                <option value="{{ category.id }}">{{ category.name }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Upload"/>
+    </form>
+    <a href="{% url 'document_list' %}">Back to Documents</a>
+</div>
+            
+
+
+    <script>
+        document.querySelector("#file_input").addEventListener("change", function() {
+            var files = document.querySelector("#file_input").files;
+            var directories = {};
+            for (var file of files) {
+                directories[file.name] = file.webkitRelativePath;
+            }
+            directories = JSON.stringify(directories);
+            document.querySelector("#directories").value = directories;
+        });
+    </script>
 </body>
+</html>
+
